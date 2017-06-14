@@ -4,7 +4,7 @@ let express = require('express'),
     path = require('path'),
     bodyParser = require('body-parser');
 
-app.use(express.static('/app/'));
+app.use(express.static('app'));
 app.set('views', './app/jade');
 app.set('view engine', 'jade');
 

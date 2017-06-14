@@ -1,0 +1,38 @@
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 600px;
+  list-style: none;
+  padding: 0;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: grey;
+  font-family: Verdana, sans-serif;
+}
+
+header ul li a:hover {
+  color: darkgrey;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: red;
+}
+
+body {
+  font-size: 15px;
+}

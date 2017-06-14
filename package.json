@@ -9,9 +9,15 @@
   "author": "Zimzik",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.3",
     "jade": "^1.11.0"
   },
   "devDependencies": {
-    "body-parser": "^1.17.2"
+    "body-parser": "^1.17.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-group-css-media-queries": "^1.2.0",
+    "gulp-less": "^3.3.0",
+    "reload": "^1.1.5"
   }
 }
